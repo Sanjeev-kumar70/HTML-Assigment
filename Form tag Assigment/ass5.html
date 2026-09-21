@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Student Admission Form</title>
+</head>
+<body>
+    <h1 align="center">Assignment 4- Complex Student Admission Form</h1><hr>
+    <form>
+        <h3>Presonal Information :</h3>
+        <!--Start Lable tag-->
+        <label>Full Name*:</label>
+        <input type="text" name="Full Name" required>
+        &nbsp;&nbsp;&nbsp;
+        <label>Date of Birth*:</label>
+        <input type="text" name="Date of Birth"><br><br>
+        <label>Email*:</label>
+        <input type="text" name="email" required>
+        &nbsp;&nbsp;&nbsp;
+        <label>Mobile Number*:</label>
+        <input type="number" name="Number" required><br><br>
+        <label>Father Name:</label>
+        <input type="text" name="FName" required>
+        &nbsp;&nbsp;&nbsp;
+        <label>Mother Name:</label>
+        <input type="text" name="MName" required><br><br>
+        <!--End lable tag-->
+        <!-- Start radio tag-->
+        <label>Gender :</label> &nbsp;&nbsp;&nbsp;
+        <input type="radio" name="gender">
+        <label>Male</label>
+        <input type="radio" name="gender">
+        <label>Female</label>
+        <input type="radio" name="gender">
+        <label>Other</label><br><br>
+        <!--End Radio Tag-->
+        <!-- Start Address tag -->
+        <label>Permanent Address:</label>
+        <textarea name="Address" id="address" rows="5" cols="100"></textarea>
+        <!--End Address tag-->
+        <h3>Academic Information :</h3>
+        <!--Start Select tag-->
+        <label>Course Applying For*:</label>
+        <select>
+        <option>Select</option>
+        <option value="B.tech">B.tech</option>
+        <option value="Diploma">Diploma</option>
+        <option value="B.A.">B.A.</option>
+        </select>  &nbsp;&nbsp;&nbsp;
+        <label>Branch*:</label>
+        <select>
+            <option>Select</option>
+            <option value="Computer Scince">Computer Scince</option>
+            <option value="IT">IT</option>
+            <option value="ME">ME</option>
+        </select><br><br>
+        <label>Class 10 Percentage :</label>
+        <input type="number">&nbsp;&nbsp;&nbsp;
+        <label>Class 12 Percentage :</label>
+        <input type="number"><br><br>
+        <!--End Select tag-->
+        <!--Start radio tag-->
+        <label>Preferred Study Mode :</label>
+        <input type="radio" name="mode">
+        <label>online</label>
+        <input type="radio" name="mode">
+        <label>offline</label>
+        <input type="radio" name="mode">
+        <label>Hybrid</label>
+        <!--End radio tag-->
+        <!--Start Checkbox tag-->
+        <h3>Skill and Interests :</h3>
+        <input type="checkbox" name="C Programming">
+        <label>C Programming</label>&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="Python">
+        <label>Python</label>&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="Java">
+        <label>Java</label>&nbsp;&nbsp;&nbsp;<br><br>
+        <input type="checkbox" name="Web Development">
+        <label>Web Development</label>&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name="Data Analytics">
+        <label>Data Analytics</label>&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" name=Cloud Computing">
+        <label>Cloud Computing</label>&nbsp;&nbsp;&nbsp;
+    <!--End Checkbox tag-->
+    <!--Start Flie tag-->
+    <h3>Documents :</h3>
+    <label>Upload photograph*:</label>
+    <input type="file">
+    <label>Upload Resume:</label>
+    <input type="file"><br><br>
+    <!--End  FileTag -->
+    <!--start textarea tag-->
+    <label>Statement of Purpose :</label>
+    <textarea rows="4" cols="100"></textarea>
+    <!--End textarea tag-->
+    <p>Challenge: Bulid the complete form using fieldset,legend,label and semantic HTML only.</p>
+    <input type="checkbox" name="select"> I confirm that all information provided above is correct. <br>
+    <p><b>Figure 4.</b> Complex Student Admission Form using Pure HTML .</p>
+    <input type="RESET">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit">
+    </form>
+
+</body>
+</html>

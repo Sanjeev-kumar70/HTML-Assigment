@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Reservation Form</title>
+</head>
+<body>
+    <h1 align="center">Assigment 1 Travel Reservation Form</h1><hr>
+    <form>
+        <!--Start label Tag-->
+        <h3>*denotes mandatory fields</h3><br>
+        <label>Full name*:</label><br>
+        <input type="text" name="Full name" placeholder="FirstName LastName" required><br><br>
+        <label>Email address*:</label><br>
+        <input type="text" name="email Address" placeholder="EMAIL_ADDRESS" required><br><br>
+        <label>Select Tour Package*:</label><br>
+        <!--End lable Tag-->
+        <!--select tag star-->
+        <select>
+            <option>select</option>
+            <option value="2000₹">2000₹</option>
+            <option value="2500₹">2500₹</option>
+            <option value="3000₹">3000₹</option>
+        </select><br><br>
+        <!-- select End tag -->
+        <!--Start Checbox tag-->
+        <label>Arrival date*:</label><br>
+        <input type="date" required><br><br>
+        <label>Number of Person*:</label><br>
+        <input type="text" placeholder="UNKNOWN_TYPE" required>
+        <h4>What would you want to avail?*</h4>
+        <input type="checkbox" name="service" value="Boarding">
+        <label>Boarding</label><br>
+        <input type="checkbox" name="service" value="Fooding">
+        <label>Fooding</label><br>
+        <input type="checkbox" name="service" value="Sight seeing">
+        <label>Sight seeing</label><br><br>
+        <!--End Checkbox Tag-->
+        <label>Discount Coupon code:</label><br>
+        <input type="text">
+        <h4>Terms and condition*</h4>
+        <!--start radio tag-->
+        <input type="radio" required>
+        <label>I agree</label>
+        &nbsp;&nbsp;&nbsp;
+        <input type="radio" required>
+        <label>I disagree</label><br><br>
+        <!--end radio tag-->
+        <input type="text" placeholder="Complete reservation"><br><br>
+        <input type="submit" value="submit">
+    </form>
+    <p>Create this reservation form with required fields and appropriate input types.</p>
+    <p> <b>Figure 3.</b>Travel Reservation Form Using pure HTML.</p>
+</body>
+</html>

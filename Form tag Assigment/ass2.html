@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1 align="center">Assignment 1 - Registration Form</h1><hr>
+    <form>
+        <!--Start Lable tag-->
+        <label> First Name:</label>
+        <input type="text"
+        name="firstName"
+        placeholder="Enter your first name"
+        pattern='[A-Za-z]+'><br><br>
+        <label>Last Name:</label>
+        <input
+        type="text"
+        name="Lastname"
+        placeholder="Enter your last name"><br><br>
+        <label>Email:</label>
+        <input
+        type="text"
+        name="Email"
+        placeholder="Enter your email .com"><br><br>
+        <!--End lable Tag-->
+        <!--Start password -->
+        <label>Password</label>
+        <input
+        type="password"><br><br>
+        <!--End Password-->
+        <!--Start radio Tag-->
+        <label>Gender:</label><br><br>
+        <label>Male</label>
+        <input type="radio"
+        id="Male"
+        name="Gender"
+        value="Male"
+        required>
+        <label>Female</label>
+        <input type="radio"
+        id="Female"
+        name="Gender"
+        value="Female"
+        required>
+        <label>Other</label>
+        <input type="radio"
+        id="Other"
+        name="Gender"
+        value="Other"
+        required><br><br>
+        <label>Age</label>
+        <input
+        type="number"
+        name="age"><br><br>
+        <!--End Radio Tag-->
+        <!--Start Checkbox Tag-->
+        <strong>Preferences:</strong><br><br>
+        <input type="checkbox">
+        <label>Acrylic Painting</label><br>
+        <input type="checkbox">
+        <label>Oil Painting</label><br>
+        <input type="checkbox">
+        <label>Water Color Painting</label><br><br>
+        <!--End Checkbox tag-->
+        <!--Start Select Tag-->
+        <label>Select Occupation:</label>
+        <select>
+            <option>Select</option>
+            <option>Student</option>
+            <option>Doctor</option>
+            <option>Techer</option>
+        </select><br><br>
+        <!--End Select tag-->
+        <!--Start textarea tag-->
+        <label>Bio:</label>
+        <textarea name="Bio" cols="50" rows="6"></textarea><br><br>
+        <!--End textarea tag-->
+        <input type="reset">
+        <input type="submit">
+    </form><br>
+    <p>Build this form using only HTML form elements. Do not use CSS.</p>
+    <p><b>Figure 1:</b>Registration Form using HTML </p>
+    
+</body>
+</html>

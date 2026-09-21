@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reference Form</title>
+</head>
+<body>
+    <h1>Reference Form</h1>
+    <form >
+        <!--text Input-->
+        <label>Name:
+            <input type="text"
+            name="fullname"
+            placeholder="Enter your name"      
+            required >
+    
+        </label><br><br>
+        <label>Father Name :
+            <input type="text"
+            name="Fname"
+            placeholder="Enter Your father Name"
+            required>
+        </label><br><br>
+        <label>Email:
+            <input type="text" 
+            name="Email"
+            placeholder="Enter your email id"
+            required>
+        </label><br><br>
+        <!--radio Button-->
+        <label>Gender:</label><br>
+        <label for="Male">male</label>
+        <input type="radio" 
+        id="male"
+        name="gender"
+        value="male"
+        required>
+        <label for="Female">Female</label>
+        <input type="radio"
+        id="Female"
+        name="gender"
+        value="Female"
+        required>
+        <label for="Other">Other</label>
+        <input type="radio" 
+        id="Other"
+        name="gender"
+        value="Other"
+        required>
+        <br><br>
+        <label>DOB
+            <input type="date"
+            name="dob" >
+        </label><br><br>
+        <!--Dropdown-->
+        <label>Coures
+        <select>
+            <option value="">select</option>
+            <option value="CS">CS</option>
+            <option value="EE">EE</option>
+            <option value="ME">ME</option>
+        </select></label><br><br>
+        <!--text Area-->
+        <label>Address
+        <textarea name="Address" rows="1" cols="10"></textarea>
+        </label><br><br>
+        <!--file upload-->
+        <label>upload Resume
+            <input type="file">
+        </label><br><br>
+        <!--Button -->
+        <label>Hobbies<br>
+            Cricket<input type="checkbox"
+            name="hobby"
+            value="Cricket">
+            Hockey<input type="checkbox"
+            name="hobby"
+            value="Hockey">
+            Ludo<input type="checkbox"
+            name="hobby"
+            value="Ludo">
+        </label><br><br>
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>
